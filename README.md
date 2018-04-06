@@ -1,5 +1,3 @@
-# UGA Research Day 2017 website
-
 
 ## Credits
 - [Nathan Randecker](https://github.com/nrandecker/particle)
