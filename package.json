@@ -1,23 +1,42 @@
 {
-  "name": "ugacs-researchday",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Brad Bazemore",
-  "license": "MIT",
-  "dependencies": {
-    "bootstrap": "^3.3.7",
-    "browser-sync": "^2.18.6",
-    "fontawesome": "^4.7.2",
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-csso": "^2.0.0",
-    "gulp-imagemin": "^3.1.1",
-    "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^2.0.0"
-  }
+    "title": "Landing Page",
+    "name": "startbootstrap-landing-page",
+    "version": "4.0.0",
+    "description": "An HTML landing page template built with Bootstrap",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://startbootstrap.com/template-overviews/landing-page",
+    "bugs": {
+        "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page/issues",
+        "email": "feedback@startbootstrap.com"
+    },
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+        "David Miller (http://davidmiller.io/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
+    },
+    "dependencies": {
+        "bootstrap": "4.0.0",
+        "font-awesome": "4.7.0",
+        "jquery": "3.3.1",
+        "simple-line-icons": "^2.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.23.6",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.2",
+        "gulp-header": "2.0.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0"
+    }
 }
