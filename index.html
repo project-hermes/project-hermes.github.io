@@ -1,160 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>Project Hermes</title>
 
-    <title>Project Hermes</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117428830-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117428830-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-      gtag('config', 'UA-117428830-1');
-    </script>
-    
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-    
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    gtag('config', 'UA-117428830-1');
+  </script>
 
-    <!-- font awesome-->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
-    <link href="css/landing-page.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
 
-  </head>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-  <body>
+  <!-- font awesome-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
 
-    <!-- Masthead -->
-    <header class="masthead text-white text-center">
-      <div class="overlay"></div>
-      <div class="container">
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.min.css" rel="stylesheet">
+</head>
 
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar static-top">
+    <div class="container">
+      <a href="https://cousteaudivers.wordpress.com/"><img class="navbar-brand" src="img/cousteau-divers-logo.jpg" style="width:25%"></a>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+    </div>
+  </header>
+
+  <section class="features-icons bg-light text-center">
+    <div class="container">
+      <div class="row">
+        <p class="lead mb-0">We are monitoring the temperatures of the coastal ocean at depth worldwide in near real-time, combining satellite
+          surface temperatures and diver measurements, using sensors ranging from precision instruments to dive computer
+          profiles.
+        </p>
+        <h4 class="mx-auto">Seems straightforward, right? Surprisingly, it is not.</h4>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <section class="features-icons bg-light text-center">
-      <div class="container">
-        <div class="row">
-          <p class="lead mb-0">We are monitoring the temperatures of the coastal ocean at depth worldwide in near real-time, combining satellite surface temperatures and diver measurements, using sensors ranging from precision instruments to dive computer profiles.</p>
-          <h4 class="mx-auto">Seems straightforward, right? Surprisingly, it is not.</h4>
-        </div>
-      </div>
-    </section>
+  <!-- Image Showcases -->
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
 
-    <!-- Image Showcases -->
-    <section class="showcase">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters">
-
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/sat.jpg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Weather Satellites</h2>
-            <p class="lead mb-0">Satellites measure the temperature of the ocean's surface but not at depth. That's where the divers come in.</p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/diver.jpg');"></div>
-          <div class="col-lg-6 my-auto showcase-text">
-            <h2>Divers</h2>
-            <p class="lead mb-0">From all over the world divers will collect detailed geolocated depth and temperature data. This will be gathered from many sources such as the Hermes Sensor or dive computers.</p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/ocean-temp.jpg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Data</h2>
-            <p class="lead mb-0">Through the open source cloud app all data is gathered into a centralized location. Making it simple for scientist, researchers or enthusiasts to make new discoveries about our ocean.</p>
-          </div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/sat.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Weather Satellites</h2>
+          <p class="lead mb-0">Satellites measure the temperature of the ocean's surface but not at depth. That's where the divers come in.</p>
         </div>
       </div>
-    </section>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/diver.jpg');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Divers</h2>
+          <p class="lead mb-0">From all over the world divers will collect detailed geolocated depth and temperature data. This will be gathered
+            from many sources such as the Hermes Sensor or dive computers.</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/ocean-temp.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Data</h2>
+          <p class="lead mb-0">Through the open source cloud app all data is gathered into a centralized location. Making it simple for scientist,
+            researchers or enthusiasts to make new discoveries about our ocean.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Team -->
-    <section class="testimonials text-center bg-light">
-      <div class="container">
-        <h2 class="mb-5">The Team</h2>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/pierre-yves-cousteau.jpg" alt="">
-              <h5>Pierre-Yves Cousteau</h5>
-              <a href="https://cousteaudivers.wordpress.com/"><i class="fab fa-wordpress fa-2x"></i></a>
-            </div>
+  <!-- Partners -->
+  <section class="testimonials text-center bg-light">
+    <div class="container">
+      <h2 class="mb-5">Our Partners</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="mx-auto mb-5 mb-lg-0">
+            <a href="https://daneurope.org"><img class="img-fluid mb-3" src="img/daneurope-logo.png" alt=""></a>
           </div>
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/brad.jpg" alt="">
-              <h5>Brad Bazemore</h5>
-              <a href="https://www.linkedin.com/in/bradfordbazemore/"><i class="fab fa-linkedin fa-2x"></i></a>
-              <a href="https://github.com/sonyccd"><i class="fab fa-github-square fa-2x"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/brendan.jpg" alt="">
-              <h5>Brendan Walters</h5>
-            </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="mx-auto mb-5 mb-lg-0">
+            <a href="https://www.eumetsat.int"><img class="img-fluid mb-3" src="img/EUMETSAT_logo.png" alt=""></a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Call to Action -->
-    <section class="call-to-action text-white text-center">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-9 mx-auto">
-            <h2 class="mb-4">Want to learn more?</h2>
+  <!-- Team -->
+  <section class="testimonials text-center bg-light">
+    <div class="container">
+      <h2 class="mb-5">The Team</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/pierre-yves-cousteau.jpg" alt="">
+            <h5>Pierre-Yves Cousteau</h5>
+            <a href="https://cousteaudivers.wordpress.com/">
+              <i class="fab fa-wordpress fa-2x"></i>
+            </a>
           </div>
-          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-            <form action="https://goo.gl/forms/1IGK4QIFvtq5lxEk1">
-              <div class="form-row">
-                <div class="mx-auto">
-                  <input type="submit" class="btn btn-block btn-lg btn-primary" value="Sign Up">
-                </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/brad.jpg" alt="">
+            <h5>Brad Bazemore</h5>
+            <a href="https://www.linkedin.com/in/bradfordbazemore/">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com/sonyccd">
+              <i class="fab fa-github-square fa-2x"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/brendan.jpg" alt="">
+            <h5>Brendan Walters</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="call-to-action text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h2 class="mb-4">Want to learn more?</h2>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <form action="https://goo.gl/forms/1IGK4QIFvtq5lxEk1">
+            <div class="form-row">
+              <div class="mx-auto">
+                <input type="submit" class="btn btn-block btn-lg btn-primary" value="Sign Up">
               </div>
-            </form>
-          </div>
+            </div>
+          </form>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item">
-                <a href="https://cousteaudivers.wordpress.com/">Cousteau Divers</a>
-              </li>
-            </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Cousteau Divers. All Rights Reserved.</p>
-          </div>
-
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item">
+              <a href="https://cousteaudivers.wordpress.com/">Cousteau Divers</a>
+            </li>
+          </ul>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Cousteau Divers. All Rights Reserved.</p>
         </div>
+
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
-  </body>
+</body>
 
 </html>
