@@ -21,7 +21,40 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      {
+        hid: 'description',
+        name: 'description',
+        content: "We're taking the temperature of the Ocean. Literally."
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Project Hermes'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'http://project-hermes.com/assets/img/bg-logo-2.png'
+      },
+      {
+        hid: 'og:image:width',
+        property: 'og:image:width',
+        content: '2048'
+      },
+      {
+        hid: 'og:image:height',
+        property: 'og:image:height',
+        content: '972'
+      }
+
+      // <meta charset="utf-8">
+      // <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      // <meta property="og:title" content="Project Hermes" />
+      // <meta property="og:description" content="We're taking the temperature of the Ocean. Literally." />
+      // <meta name="description" content="We're taking the temperature of the Ocean. Literally." />
+      // <meta property="og:image" content="http://project-hermes.com/img/bg-logo.jpg" />
+      // <meta property="og:image:width" content="2048" />
+      // <meta property="og:image:height" content="972" />
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
