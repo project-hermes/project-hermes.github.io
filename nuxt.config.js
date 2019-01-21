@@ -14,7 +14,11 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Eczar|Raleway'
+      }
     ]
   },
 
@@ -26,15 +30,12 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [
-    '~/assets/css/tailwind.css'
-  ],
+  css: ['~/assets/css/tailwind.css'],
 
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-  ],
+  plugins: [],
 
   /*
   ** Nuxt.js modules

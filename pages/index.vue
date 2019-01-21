@@ -2,19 +2,19 @@
   <main>
     <section
       id="hero"
-      class="hero-background h-screen bg-no-repeat bg-cover bg-center p-8 flex flex-col items-center">
+      class="hero-background h-screen bg-no-repeat bg-cover p-12 flex flex-col items-center">
       <div class="w-full">
         <img
-          src="~/assets/img/Line.svg"
-          class="float-left w-24">
+          src="~/assets/img/H_Logo.svg"
+          class="float-left w-12 md:w-16">
         <div class="float-right flex flex-row self-center">
           <button
-            class="bg-transparent text-white font-semibold py-2 px-4 mr-2 border border-transparent hover:border-white rounded"
+            class="bg-transparent text-white text-sm uppercase underline font-semibold py-3 px-6 md:px-10 mr-2 border-2 border-transparent rounded-full"
             onclick="location.href='https://app.project-hermes.com/'">
             Log In
           </button>
           <button
-            class="bg-transparent hover:bg-white text-white hover:text-black font-semibold py-2 px-4 border border-white rounded"
+            class="bg-transparent hover:bg-white text-white text-sm uppercase hover:text-black font-semibold py-3 px-6 md:px-10 border-2 border-white rounded-full"
             onclick="location.href='https://app.project-hermes.com/'">
             Sign Up
           </button>
@@ -24,32 +24,25 @@
         <img
           src="~/assets/img/PH_Logo Full.png"
           class="w-4/5 xl:w-2/5 md:w-3/5">
-        <p class="transform-up text-white font-semibold text-lg md:text-xl xl:text-2xl md:w-2/3 lg:w-1/3 mt-4 md:mt-0 text-center">
-          Nunc ullamcorper odio quam. Nam quis consectetur turpis. Duis porta est ut arcu placerat lacinia.
-        </p>
       </div>
       <div class="w-full flex flex-col md:flex-row justify-between">
-        <img src="~/assets/img/cousteau_divers_logo.svg">
-        <img src="~/assets/img/calypso-diving-society-logo.svg">
+        <img src="~/assets/img/divers_logo.svg">
       </div>
     </section>
     <section
       id="sponsors"
-      class="h-48 bg-grey-lighter flex flex-col justify-around items-center">
-      <p class="text-black font-semibold text-xl">Our Sponsors</p>
-      <div class="w-full flex flex-col md:flex-row md:justify-around md:items-center">
-        <div>
-          <h1>logo placeholder</h1>
-          <!-- <img
-            src="~/assets/img/logo.png"
-            class="p-2"> -->
-        </div>
-        <div>
-          <h1>logo placeholder</h1>
-          <!-- <img
-            src="~/assets/img/logo.png"
-            class="p-2"> -->
-        </div>
+      class="h-auto md:h-48 bg-grey-lighter flex-col justify-center items-center self-center">
+      <p class="text-black font-extrabold text-md uppercase  text-center pt-6 pb-4">In Collaboration With</p>
+      <div class="flex flex-col md:flex-row justify-around items-center">
+        <img
+          class="m-4 md:m-0 w-3/5 md:w-1/5 xl:w-1/5 lg:w-1/5"
+          src="~/assets/img/Dan Europe Logo-05.svg">
+        <img
+          class="m-4 md:m-0 w-3/5 md:w-1/5 xl:w-1/5 lg:w-1/5"
+          src="~/assets/img/eumstat logo.svg">
+        <img
+          class="m-4 md:m-0 w-3/5 md:w-1/5 xl:w-1/5 lg:w-1/5"
+          src="~/assets/img/university_of_queensland.svg">
       </div>
     </section>
     <section
@@ -61,64 +54,68 @@
           class="object-contain">
       </div>
       <div class="flex-1 flex justify-center items-center flex-col p-4 sm:p-2 md:p-0">
-        <p class="text-blue-dark text-2xl md:text-3xl lg:text-4xl">What is Project Hermes?</p>
-        <p class="text-black text-md md:text-lg lg:text-xl w-3/5 my-12 text-center">
-          Nunc ullamcorper odio quam. Nam quis consectetur turpis. Duis porta est ut arcu placerat lacinia. Nam auctor sapien eu fermentum pellentesque.
+        <p class="font-eczar font-black text-blue text-2xl md:text-3xl lg:text-4xl">What is Project Hermes?</p>
+        <p class="text-black  text-md md:text-lg lg:text-xl md:w-3/5 mt-12 text-left">
+          Through the power of open source IoT technology we have created a new diving instrument.
+          It allows divers to gather data about the water they explore and with record precision.
+        </p>
+        <p class="text-black  text-md md:text-lg lg:text-xl md:w-3/5 mt-6 mb-12 text-left">
+          The data is then made public for our scientific partners to study in the hopes of
+          better understanding the effects of climate change on our oceans.
         </p>
         <img
           src="~/assets/img/PH_line_blue.png"
           class="w-12 lg:w-24">
       </div>
     </section>
-    <section id="how">
-      <p class="text-blue-dark text-4xl p-16">How it works</p>
+    <section
+      id="how"
+      class="pb-8 md:pb-0">
+      <p class="font-eczar text-blue font-black text-4xl p-24">How it works</p>
 
-      <div class="flex justify-center">
+      <div class="flex justify-center mb-10 md:mb-0">
         <div class="flex flex-col md:flex-row items-center">
           <img
             src="~/assets/img/how_step_1.svg"
-            class="w-3/5">
-          <div class="w-2/5">
-            <div class="uppercase font-bold tracking-wide">Step One</div>
-            <div class="text-3xl font-bold my-8">Get Sensor Ready</div>
+            class="w-3/5 mb-10">
+          <div class="w-3/5 md:w-2/5">
+            <div class="uppercase font-bold ">Step One</div>
+            <div class="font-eczar text-3xl font-bold my-8">Get Ready</div>
             <div class="font-bold text-xl">Register Sensors</div>
             <div class="mt-4">
-              When you unbox your sensor it will need to know who is using it.
-              Go into the Hermes App and register the sensor.
+              Once you have pulled out your sensor, go to <a href="http://project-hermes.com/quickstart">project-hermes.com/quickstart</a> for your quickstart guide.
             </div>
           </div>
         </div>
       </div>
 
       <div class="flex justify-center">
-        <div class="flex flex-col md:flex-row items-center">
+        <div class="flex flex-col md:flex-row items-center justify-center">
           <img
-            src="~/assets/img/how_step_1.svg"
-            class="w-3/5">
-          <div class="w-2/5">
-            <div class="uppercase font-bold tracking-wide">Step Two</div>
-            <div class="text-3xl font-bold my-8">Get Sensor Ready</div>
-            <div class="font-bold text-xl">Register Sensors</div>
+            src="~/assets/img/how_step_2.png"
+            class="object-contain w-3/5 md:w-2/5">
+          <div class="w-3/5 md:w-1/5">
+            <div class="uppercase font-bold ">Step Two</div>
+            <div class="font-eczar text-3xl font-bold my-8">Deploy</div>
+            <div class="font-bold text-xl">Go Diving</div>
             <div class="mt-4">
-              When you unbox your sensor it will need to know who is using it.
-              Go into the Hermes App and register the sensor.
+              Now for the fun. Go diving! The sensor can store weeks worth of dives and, once you are back to your dive shop, the data will upload on its own.
             </div>
           </div>
         </div>
       </div>
 
       <div class="flex justify-center">
-        <div class="flex flex-col md:flex-row items-center">
+        <div class="flex flex-col md:flex-row items-center justify-center">
           <img
-            src="~/assets/img/how_step_1.svg"
-            class="w-3/5">
-          <div class="w-2/5">
-            <div class="uppercase font-bold tracking-wide">Step Three</div>
-            <div class="text-3xl font-bold my-8">Get Sensor Ready</div>
-            <div class="font-bold text-xl">Register Sensors</div>
+            src="~/assets/img/how_step_3.png"
+            class="w-3/5 md:w-2/5">
+          <div class="w-3/5 md:w-1/5">
+            <div class="uppercase font-bold ">Step Three</div>
+            <div class="font-eczar text-3xl font-bold my-8">Observe</div>
+            <div class="font-bold text-xl">Collect Data and Repeat</div>
             <div class="mt-4">
-              When you unbox your sensor it will need to know who is using it.
-              Go into the Hermes App and register the sensor.
+              Once the cloud has the data you and the greater scientific community can explore it!
             </div>
           </div>
         </div>
@@ -145,20 +142,35 @@
       <p class="text-blue-dark font-bold text-3xl p-4">Who we are</p>
     </section> -->
 
-    <!-- <section
+    <section
       id="quote"
-      class="h-96 quote-background bg-no-repeat bg-cover bg-center"/> -->
+      class="h-96 quote-background bg-no-repeat bg-cover bg-center flex flex-col justify-around items-center">
+      <p class="font-eczar text-center text-3xl md:text-4xl text-semibold text-white lg:px-64 xl:px-96">
+        "As a marine scientist who works on the urgent issue of climate change I can attest to the fact that collecting this information is of great importance."
+      </p>
 
-    <!-- <section
-      id="how"
-      class="h-96" /> -->
+      <div class="flex flex-col items-center">
+        <img
+          src="~/assets/img/Line_yellow.svg"
+          class="w-16">
+        <p class="text-white text-center text-2xl font-semibold my-8">
+          Professor Ove Hoegh-Guldberg
+        </p>
+        <p class="text-white text-center italic">
+          Director, Global Change Institute
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="h-24" />
 
     <section
       id="hack"
       class="h-screen-2/3 hack-background bg-no-repeat bg-cover bg-center flex flex-col items-center justify-around">
-      <div class="flex-3">
-        <p class="my-24 mx-32 text-4xl text-yellow font-semibold">Let's Hack the Ocean</p>
-        <div class="flex flex-col md:flex-row justify-between items-center">
+      <div class="flex-3 md:w-1/2">
+        <p class="text-center font-eczar mx-8 sm:mx-12 my-24 md:mx-24 lg:mx-32 text-4xl lg:text-5xl text-yellow font-semibold tracking-wide">Let's Open the Oceans and Hack the Seas.</p>
+        <div class="flex flex-col md:flex-row justify-between items-center mb-4">
           <button
             class="m-2 w-64 bg-yellow text-black uppercase whitespace-no-wrap text-sm font-bold py-5 rounded-full"
           >
@@ -192,7 +204,9 @@ export default {
 }
 
 .quote-background {
-  background-image: url('~assets/img/photo_coral.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('~assets/img/photo_coral.png');
+  /* background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
 }
 
 .hack-background {
@@ -205,5 +219,9 @@ export default {
 
 .min-content {
   width: min-content;
+}
+
+.font-eczar {
+  font-family: 'Eczar', serif;
 }
 </style>

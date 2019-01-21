@@ -329,7 +329,8 @@ module.exports = {
   tracking: {
     tight: '-0.05em',
     normal: '0',
-    wide: '0.05em'
+    wide: '0.05em',
+    'double-wide': '0.1em'
   },
 
   /*
@@ -652,7 +653,10 @@ module.exports = {
     '16': '4rem',
     '20': '5rem',
     '24': '6rem',
-    '32': '8rem'
+    '32': '8rem',
+    '48': '12rem',
+    '64': '16rem',
+    '96': '24rem'
   },
 
   /*
@@ -686,7 +690,10 @@ module.exports = {
     '16': '4rem',
     '20': '5rem',
     '24': '6rem',
-    '32': '8rem'
+    '32': '8rem',
+    '48': '12rem',
+    '64': '16rem',
+    '96': '24rem'
   },
 
   /*
