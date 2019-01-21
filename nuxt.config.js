@@ -1,6 +1,16 @@
 const pkg = require('./package')
 
+const router =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/project-hermes.github.io/'
+        }
+      }
+    : {}
+
 module.exports = {
+  ...router,
   mode: 'universal',
 
   /*
