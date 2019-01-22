@@ -4,13 +4,13 @@ const router =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
         router: {
-          base: '/project-hermes.github.io/'
+          base: '/dist/'
         }
       }
     : {}
 
 module.exports = {
-  // ...router,
+  ...router,
   mode: 'universal',
 
   /*
