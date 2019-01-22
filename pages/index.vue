@@ -83,7 +83,7 @@
             <div class="font-eczar text-3xl font-bold my-8">Get Ready</div>
             <div class="font-bold text-xl">Register Sensors</div>
             <div class="mt-4">
-              Once you have pulled out your sensor, go to <a href="http://project-hermes.com/quickstart">project-hermes.com/quickstart</a> for your quickstart guide.
+              Once you have pulled out your sensor, go to <a href="http://project-hermes.com/">project-hermes.com/quickstart</a> for your quickstart guide.
             </div>
           </div>
         </div>
