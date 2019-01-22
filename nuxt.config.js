@@ -10,7 +10,7 @@ const router =
     : {}
 
 module.exports = {
-  ...router,
+  // ...router,
   mode: 'universal',
 
   /*
