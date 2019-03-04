@@ -34,7 +34,7 @@ module.exports = {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'http://project-hermes.com/assets/img/bg-logo-2.png'
+        content: 'http://project-hermes.com/img/bg-logo-2.png'
       },
       {
         hid: 'og:image:width',

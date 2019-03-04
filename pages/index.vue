@@ -190,6 +190,7 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+import '~/assets/img/bg-logo-2.png'
 
 export default {
   components: {
