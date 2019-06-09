@@ -25,8 +25,16 @@
           src="~/assets/img/PH_Logo Full.png"
           class="w-4/5 xl:w-2/5 md:w-3/5">
       </div>
-      <div class="w-full flex flex-col md:flex-row justify-between">
-        <img src="~/assets/img/divers_logo.svg">
+      <div class="w-full flex flex-col lg:flex-row justify-between self-center items-center max-w-full">
+        <img
+          class="lg:w-1/3 md:w-1/2 w-2/3"
+          src="~/assets/img/divers_logo.svg">
+        <img
+          class="lg:w-1/4 md:w-1/2 w-2/3"
+          src="~/assets/img/iwc-logo.png">
+        <img
+          class="lg:w-1/3 md:w-1/2 w-2/3"
+          src="~/assets/img/blue-robotics-logo.png">
       </div>
     </section>
     <section
@@ -207,7 +215,6 @@ export default {
 .quote-background {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('~assets/img/photo_coral.png');
-  /* background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
 }
 
 .hack-background {
@@ -224,5 +231,9 @@ export default {
 
 .font-eczar {
   font-family: 'Eczar', serif;
+}
+
+.object-contain {
+  object-fit: contain;
 }
 </style>
