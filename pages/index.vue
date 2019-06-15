@@ -181,6 +181,7 @@
         <div class="flex flex-col md:flex-row justify-between items-center mb-4">
           <button
             class="m-2 w-64 bg-yellow text-black uppercase whitespace-no-wrap text-sm font-bold py-5 rounded-full"
+            onclick="location.href='https://goo.gl/forms/xNfbH0NCcDkx65Lj1'"
           >
             Request a Sensor
           </button>
